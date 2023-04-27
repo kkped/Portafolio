@@ -50,7 +50,6 @@
         display: flex;
         padding: 0;
         width: 400%;
-        
         animation: cambio 2s infinite alternate ;
     }
     
