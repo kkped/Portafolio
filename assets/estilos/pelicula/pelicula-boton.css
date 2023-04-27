@@ -1,0 +1,13 @@
+.pelicula__boton{
+    background: #0988;
+    border: none;
+    border-radius: 5px;
+    color: rebeccapurple;
+    padding: 1rem;
+    transition: all .4s ease-in-out;
+}
+
+.pelicula__boton:hover{
+    cursor: pointer;
+    background: rgb(19, 41, 108);
+}
