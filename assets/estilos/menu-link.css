@@ -1,0 +1,10 @@
+.menu__link{
+    background-color: gray;
+  color: #000000;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 10px;
+  
+}

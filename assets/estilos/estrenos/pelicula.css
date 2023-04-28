@@ -1,0 +1,21 @@
+.pelicula{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between; 
+}
+
+.pelicula__imagen{
+    width: 240px;
+    height: 290px;
+    }
+
+/*    
+.final{
+        margin-top: 20px;
+        background-color: #000000;
+        width: 100%;
+        height: 500px;
+}*/
