@@ -1,0 +1,111 @@
+* {margin: 0px; padding: 0px; box-sizing: border-box;}
+
+body {background: rgb(11, 12, 56);}
+
+.cuerpo {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+  color: white;
+  width: 85%;
+  height: 50vh;
+}
+
+.division {
+  position: relative;
+  left: -90px;
+  rotate: 0deg;
+}
+
+/*De aqui para abajo empieza el codigo del lado de hechar un vistazo*/
+.vistazo {
+  display: grid;
+  place-items: center;
+  position: relative;
+  margin: 20px;
+  right: 8rem;
+}
+
+#title {
+  position: relative;
+  font-family: cursive;
+  font-size: 3rem;
+  top: 0px;
+}
+
+.vistazo > p {
+  width: 16rem; 
+  text-align: center;
+  top: 45px;
+  position: relative;
+}
+
+.ir_vistazo {
+  position: relative;
+  top: -30px;
+  width: 16rem;
+  height: 28px;
+  font-size: 20px;
+  font-family: cursive;
+  line-height: 5px;
+  cursor: pointer;
+  background: #6e6b5e;
+  color: white;
+  border: 1px solid rgb(114, 85, 85);
+  border-radius: 3px;
+}
+.ir_vistazo:hover {
+  background: #000;
+  color: white;
+}
+/*Aqui finaliza el codigo de vistazo*/
+
+/*De aqui para abajo empieza el codigo de iniciar seccion.*/
+.logins {
+  display: grid;
+  place-items: center;
+  position: relative;
+  margin: 0rem 8px 0px 10px;
+  left: 12rem;
+}
+
+#email, #password, #boton_inicio, .registrarse {
+  position: relative;
+  display: block;
+  width: 16rem;
+  height: 30px;
+  border-radius: 3px;
+}
+#email, #password {
+  background: #8a868667;
+  padding: 0px 10px 0px 10px;
+  color: white;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+#boton_inicio, .registrarse {
+  background: #6e6b5e;
+  font-size: medium;
+  font-family: cursive;
+  line-height: 1px;
+  color: white;
+}
+
+.registro {
+  position: relative;
+  top: -35px;
+  width: 16rem;
+  display: grid;
+  text-align: center;
+  place-items: center;
+}
+
+.registro > p {
+  width: 16rem;
+  margin-bottom: 15px;
+  font-size: small;
+}
+/*Aqui finaliza lo del inicio de seccion*/
